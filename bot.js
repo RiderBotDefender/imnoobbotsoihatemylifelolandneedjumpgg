@@ -182,7 +182,7 @@ ${prefix}help-music ⇏ اوامر الموسيقى
         .addField("📜 اسم السيرفر",`${args}`,true)
         .addField("🌐 بورت السيرفر",`${port}`)
         .setImage(`http://status.mclive.eu/${args}/${args}/25565/banner.png`)
-        .setFooter(`S Bot.`)
+        .setFooter(`Dark Bot.`)
                 .setTimestamp()
     message.channel.send(embed)      
 }})
