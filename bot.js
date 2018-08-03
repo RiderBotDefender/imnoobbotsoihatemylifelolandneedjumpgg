@@ -320,7 +320,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=471622475109892096&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=474889724226699264&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add Speed Bot ✅
 اسم السيرفر: ${guild.name}
@@ -332,7 +332,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=471622475109892096&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=474889724226699264&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked Speed Bot :cry:
 اسم السيرفر: ${guild.name}
@@ -345,8 +345,8 @@ client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('>bcall')){
- if (message.author.id !== '460147724063604747') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
- if(!message.author.id === '460147724063604747') return;
+ if (message.author.id !== '371696327005831169,472752133356388365') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
+ if(!message.author.id === '371696327005831169,472752133356388365') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -401,7 +401,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("⁅𝕯ǎṟķ⁆ Bot")
+					.setFooter("[ Fox ] Fox Bot")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
@@ -541,7 +541,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "<";
-const devs = ['460147724063604747'];
+const devs = ['474889724226699264,472752133356388365'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -909,7 +909,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | Elmusaui_GK and SpeedMC')
+			      .setFooter('By | !,.$~Super_Man~$')
     })
 }
 });
@@ -2070,7 +2070,7 @@ var al7arthyCodes2 = ["📙__60%__  **|**  📘__40%__","📙__63%__  **|**  �
 client.on('message', message => {
     if(!message.guild) return;
     if (message.author.bot) return;
-      let id = message.author.id,prefix="-";//البريفكس
+      let id = message.author.id,prefix="<";//البريفكس
       if (ti[id] && (new Date).getTime() - ti[id] < 20*1000) {
           let r = (new Date).getTime() - ti[id];
           r = 20*1000 - r;
@@ -2130,7 +2130,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("460147724063604747").send(
+client.users.get("371696327005831169").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2142,7 +2142,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : Elmusaui_GK and SpeedMC")
+     .setFooter("By : !,.$~Super_Man~$")
                                                 
 
 message.channel.send(embed);
@@ -2301,8 +2301,8 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot`)
-        .setThumbnail("https://discordapp.com/api/oauth2/authorize?client_id=471622475109892096&permissions=8&scope=bot")        
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=474889724226699264&permissions=8&scope=bot`)
+        .setThumbnail("https://discordapp.com/api/oauth2/authorize?client_id=474889724226699264&permissions=8&scope=bot")        
      message.channel.sendEmbed(embed);
        }
    });
@@ -2351,7 +2351,7 @@ client.on('message', message => {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/9qhq8aQ**")
+  .addField(" ** :gear: Server Support :gear: **" , "  **https://discord.gg/76pTFwa**")
      
      
   message.channel.sendEmbed(embed);
