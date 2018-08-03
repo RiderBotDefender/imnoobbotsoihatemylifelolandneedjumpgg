@@ -344,9 +344,9 @@ client.channels.get("467833183254347797").sendEmbed(embed)
 client.on('message', message => {
             if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
-if (message.content.startsWith('>bcall')){
- if (message.author.id !== '371696327005831169,472752133356388365') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
- if(!message.author.id === '371696327005831169,472752133356388365') return;
+if (message.content.startsWith('>mbc')){
+ if (message.author.id !== '371696327005831169','472752133356388365') return message.reply('** هذا الأمر قفط لصاحب البوت و شكراًً **')
+ if(!message.author.id === '371696327005831169','472752133356388365') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
@@ -541,7 +541,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "<";
-const devs = ['371696327005831169,472752133356388365'];
+const devs = ['371696327005831169','472752133356388365'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
