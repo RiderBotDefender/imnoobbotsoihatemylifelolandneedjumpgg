@@ -2453,5 +2453,4 @@ client.on("message", (message) => {
 });  
 
 // THIS  MUST  BE  THIS  WAY
-const token = "NDcxNjIyNDc1MTA5ODkyMDk2.Djng7Q.2CfYB1OvONPVuqdQ82U_yo0sFOM";
-client.login(token);
+client.login(process.env.BOT_TOKEN);
